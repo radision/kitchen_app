@@ -1,0 +1,22 @@
+.my-img {
+    max-width: 400px;
+    min-width: 300px;
+}
+.my-panel {
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.has-error {
+    border-width: thin;
+    border-color: red;
+}
+.panel-primary {
+    border-color: #fff;
+}
+.panel-yellow {
+    border-color: #fff;
+}
+.panel-green {
+    border-color: #fff;
+}
