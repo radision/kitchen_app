@@ -21,6 +21,8 @@ if ($link->connect_errno) {
     exit();
 }
 
+include('set_charset.php');
+
 $merchant = $consumer_mobile = $address = array();
 
 if ($merchant_id)

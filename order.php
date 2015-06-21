@@ -11,6 +11,8 @@ if ($link->connect_errno) {
     exit();
 }
 
+include('set_charset.php');
+
 $merchant = $goods = $goods_id = $goods_stock = array();
 $today = date('Ymd');
 $default_stock = array(

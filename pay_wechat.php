@@ -19,6 +19,8 @@ if ($link->connect_errno) {
     exit();
 }
 
+include('set_charset.php');
+
 if (!$address_id)
 {
     $sql = "INSERT INTO address (consumer_mobile_id, city, district, garden, room, status, created_at, updated_at) VALUES ('{$consumer_mobile_id}', '{$city}', '{$district}', '{$garden}', '{$room}', 1, '{$curr_time}', '{$curr_time}')";
